@@ -1,0 +1,26 @@
+[
+  {
+    "name": "alpha-server",
+    "ip_address": "192.168.1.101",
+    "machine_type": "live",
+    "expected_software": ["nginx==1.20.1", "python3==3.9.7", "curl"]
+  },
+  {
+    "name": "beta-dev-box",
+    "ip_address": "10.0.0.55",
+    "machine_type": "dev",
+    "expected_software": ["docker", "python3==3.10.4", "gcc", "node==16.13.0"]
+  },
+  {
+    "name": "gamma-test-rig",
+    "ip_address": "172.16.0.10",
+    "machine_type": "test",
+    "expected_software": ["my_custom_app==1.2.3", "java11", "postgres==13.1"]
+  },
+  {
+    "name": "delta-aux",
+    "ip_address": "192.168.2.25",
+    "machine_type": "LIVE",
+    "expected_software": []
+  }
+]
