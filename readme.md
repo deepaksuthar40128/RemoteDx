@@ -19,7 +19,7 @@ Installation:
 
 1. Clone the repository:
    ```
-   git clone [https://github.com/deepaksuthar40128/RemoteDx](https://github.com/deepaksuthar40128/RemoteDx)
+   git clone https://github.com/deepaksuthar40128/RemoteDx
    cd RemoteDx
    ```
 
